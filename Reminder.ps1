@@ -1,3 +1,4 @@
+#usage : In Task scheduler, schedule a task to "start a program" with Program/Script : powershell.exe and Arguments : "<Location>\Reminder.ps1 -url https://feedly.com/i/my"
 param ($url) #named parameter for user to pass when calling for reminders
  
 if([string]::IsNullOrEmpty($url))
